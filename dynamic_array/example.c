@@ -4,7 +4,7 @@
 
 int main()
 {
-  Array_Int array = array_create_int();
+  Array_Int array = create_array_int();
   for (int i = 1; i < 11; i++) {
     array_add_int(&array, i);
   }
