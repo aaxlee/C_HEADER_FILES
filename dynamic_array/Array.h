@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 #define ARRAY_INIT(array_type, element_type)                                                           \
-array_type array_create_##element_type()                                                               \
+array_type create_array_##element_type()                                                               \
 {                                                                                                      \
   array_type a;                                                                                        \
   a.capacity = 1;                                                                                      \
