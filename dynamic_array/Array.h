@@ -1,5 +1,5 @@
-#ifndef ARR_H
-#define ARR_H
+#ifndef ARRAY_H
+#define ARRAY_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -44,4 +44,4 @@ ARRAY_INIT(Array_Char, char)
 ARRAY_ADD(Array_Int, int)
 ARRAY_ADD(Array_Char, char)
 
-#endif /* ARR_H */
+#endif /* ARRAY_H */
