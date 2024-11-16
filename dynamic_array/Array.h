@@ -25,14 +25,14 @@ void array_add_##element_type(array_type *array, element_type element)          
   array->len++;                                                                                        \
 }                                                                                                      \
 
-typedef struct
+typedef struct Array_Int
 {
   int *data;
   size_t len;
   size_t capacity;
 } Array_Int;
 
-typedef struct
+typedef struct Array_Char
 {
   char *data;
   size_t len;
