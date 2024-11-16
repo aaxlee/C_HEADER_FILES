@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "arr.h"
+#include "Array.h"
 
 int main()
 {
