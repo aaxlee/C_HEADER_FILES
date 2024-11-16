@@ -10,7 +10,7 @@ typedef struct Array_Datatype
   size_t capacity;
 } Array_Datatype;
 
-2. Create the necessary functions to operate on the dynamic array using the macro like the following example:
+2. Create the necessary functions to operate on the dynamic array by using the macro like the following example:
 ARRAY_FUNCTIONS(Array_Datatype, datatype)
 
 3. You can now create a dynamic array that stores the desired data type:
