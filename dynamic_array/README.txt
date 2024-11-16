@@ -3,7 +3,7 @@ works like std::vector
 
 to add functionality for other data types:
 1. Create a struct like the following example:
-typedef struct
+typedef struct Array_Datatype
 {
   datatype *data;
   size_t len;
