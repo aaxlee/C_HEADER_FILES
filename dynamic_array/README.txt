@@ -33,6 +33,6 @@ Array_String strings = create_array_string();
 for (int i = 0 ; i < 11; i++) {
   array_add_string(&strings, "hello");
 }
-for (int i = 0; i < strings.len; i++) {
+for (size_t i = 0; i < strings.len; i++) {
   printf("%s ", strings.data[i]);
 }
