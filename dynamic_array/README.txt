@@ -1,5 +1,5 @@
 works like std::vector
-=> if we exceed capacity, multiply it by 2
+=> if we exceed capacity, multiply it by 2 and resize
 
 to add functionality for other data types:
 1. Create a struct like the following example:
